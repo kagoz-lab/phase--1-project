@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewsApp</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>NewsApp</h1>
+      <div class="search">
+        <input type="text" id="search-input" placeholder="Search for news...">
+        <button id="search-btn">Search</button>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><button class="category-btn" data-category="world">World</button></li>
+        <li><button class="category-btn" data-category="politics">Politics</button></li>
+        <li><button class="category-btn" data-category="sports">Sports</button></li>
+        <li><button class="category-btn" data-category="business">Business</button></li>
+        <li><button class="category-btn" data-category="technology">Technology</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div id="articles" class="articles"></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 NewsApp - All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
